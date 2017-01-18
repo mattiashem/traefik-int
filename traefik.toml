@@ -1,0 +1,11 @@
+[web]
+address = ":8080"
+
+#[consul]
+#  endpoint = "consule:8500"
+#  watch = true
+#  prefix = "traefik"
+
+logLevel = "DEBUG"
+
+defaultEntryPoints = ["http"]
